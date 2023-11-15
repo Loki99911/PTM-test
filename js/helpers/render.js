@@ -1,5 +1,5 @@
 import { generateField } from "./generateField.js";
-import { removeGroup } from "../task.js";
+import { elementRemover} from "../task.js";
 
 function renderField(field) {
   const rootField = document.querySelector(".field");
@@ -10,7 +10,7 @@ function renderField(field) {
 function createElement(fieldName, rowIndex, colIndex) {
   const domElement = document.createElement("div");
   domElement.classList.add(fieldName);
-  domElement.addEventListener("click", (e) => removeGroup(e));
+  domElement.addEventListener("click", (e) => {elementRemover.removeGroup(e)});
   domElement.dataset.row = rowIndex + 1;
   domElement.dataset.col = colIndex + 1;
   domElement.style.border = "1px solid black";
