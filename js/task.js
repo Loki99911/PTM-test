@@ -1,5 +1,4 @@
-import "./render.js";
-// import { generateField } from "./generateField.js";
+import "./helpers/render.js";
 
 export function removeGroup(e) {
   const element = e.currentTarget;

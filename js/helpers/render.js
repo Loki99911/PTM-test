@@ -1,5 +1,5 @@
 import { generateField } from "./generateField.js";
-import { removeGroup } from "./task.js";
+import { removeGroup } from "../task.js";
 
 function renderField(field) {
   const rootField = document.querySelector(".field");
