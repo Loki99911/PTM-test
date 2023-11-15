@@ -17,10 +17,9 @@ To use the application online, you can use a direct link on GitHub:
 To use the application localy, follow next steps:
 
 1. Clone the repository to your computer: `git clone` *https://github.com/Loki99911/PTM-test*
-2. Navigate to the project directory: `cd UserCardFollowers`
-3. Install dependencies of project: input `npm install` in console.
-4. Start the development server: `npm start`
-5. It will open a new tab in the your browser: *http://localhost:3000*.
+2. Use Life-server to run game.
+3. It will open a new tab in the your browser: *http://localhost:0000*.
+4. Injoy!
 
 #### If you have done everything correctly, you will see the following pages:
 ![Main page](./img/MainPage.JPG)
